@@ -25,7 +25,7 @@ After doing git-config you just need to git init.
 1. Create or login to github account.
 2. Create new repository
 3. Select ssh and copy the url
-4. $ git remote add git@github.com:username/repository_name.git
+4. $ git remote add origin git@github.com:username/repository_name.git
 
 If you haven't set up a ssh key pair for the machine you are on:
 
