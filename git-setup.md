@@ -27,11 +27,14 @@ After doing git-config you just need to git init.
 3. Select ssh and copy the url
 4. $ git remote add origin git@github.com:username/repository_name.git
 
-If you haven't set up a ssh key pair for the machine you are on:
+## If you haven't set up a ssh key pair for the machine you are on:
 
 1. ssh-keygen -t ed25519 -C "username.domain.edu"
 2. passphrase not necessary unless using shared computer
 3. On github copy the ssh key in ~/.ssh/id_ed25519.pub to SSH keys from Settings
 4. $ ssh -T git@github.com
 
-5. $git push origin main
+## With SSH key installed locally and on github:
+You are good to go!
+
+$git push origin main
