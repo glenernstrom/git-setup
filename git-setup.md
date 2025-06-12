@@ -6,7 +6,7 @@
    - $ git config --global user.name "Your Name"
    - $ git config --global user.email "youremail"
    - On macOS and Linux: $ git config --global core.autocrlf input
-   - $ git config --global core.editor "kate"  
+   - $ git config --global core.editor "vim"  
    - $ git config --global init.defaultBranch main
 3. cd into directory where you want the repository
 4. $ git init
